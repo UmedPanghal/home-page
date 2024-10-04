@@ -2,11 +2,18 @@
     --color-blue: #2c49fe;
     --color-light-blue: #01c8ff;
     --color-light-white: #c1c6ee;
+    --color-light-black: #4d4d4d;
+    --color-white: #ffffff;
     /* font-size  */
     --fs-lg: 36px;
     --fw-xxl: 64px;
     --fs-sm: 14px;
+    --fs-md: 25px;
 
+}
+
+.bg-color-blue {
+    background-color: var(--color-blue);
 }
 
 .color-blue {
@@ -21,6 +28,10 @@
     color: var(--color-light-white);
 }
 
+.color-light-black {
+    color: var(--color-light-black) !important;
+}
+
 .fs-lg {
     font-size: var(--fs-lg);
 }
@@ -31,6 +42,10 @@
 
 .fs-sm {
     font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
 }
 
 @media (max-width:576px) {
