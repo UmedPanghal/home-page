@@ -65,6 +65,10 @@
     line-height: 18px;
 }
 
+.lh-129 {
+    line-height: 129%;
+}
+
 /* no-wrap  */
 .nowrap {
     white-space: nowrap;
@@ -73,6 +77,10 @@
 /* width  */
 .mw-765 {
     max-width: 765px;
+}
+
+.mw-636 {
+    max-width: 636px;
 }
 
 .mw-190 {
@@ -224,7 +232,25 @@
     color: var(--color-white);
 }
 
+/* section-3  */
+.bg-img-section-3 {
+    background-image: url(../image/png.img/section-3-bg-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 
+}
+
+.bg-img-section-3::before {
+    background-color: #2C49FECC;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+}
 
 @media (max-width:575.98px) {
     .page-logo-img {
