@@ -9,7 +9,7 @@
     --fw-xxl: 64px;
     --fs-sm: 14px;
     --fs-md: 25px;
-
+    --fs-xl: 48px
 }
 
 .bg-color-blue {
@@ -48,9 +48,13 @@
     font-size: var(--fs-md);
 }
 
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
 @media (max-width:576px) {
     :root {
         --fw-xxl: 45px;
-        --fs-lg: 21px;
+        --fs-lg: 19px;
     }
 }

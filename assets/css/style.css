@@ -91,6 +91,10 @@
     max-width: 260px;
 }
 
+.mw-336 {
+    max-width: 336px;
+}
+
 /* margin  */
 .my-32 {
     margin-top: 32px;
@@ -252,9 +256,47 @@
     left: 0%;
 }
 
+/* section-4  */
+.img-box {
+    padding: 11px;
+}
+
+.img-box:hover {
+    box-shadow: 2px 9px 32px 0px #0000000F;
+
+}
+
+.name-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    padding-left: 17px;
+    letter-spacing: 0em;
+
+}
+
+.about-text {
+    height: 124px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    padding-left: 17px;
+    letter-spacing: 0em;
+    resize: none;
+    padding-top: 8px;
+}
+
+.btn-sign-up {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: var(--color-blue);
+    border-radius: 23px;
+    border: none;
+}
+
 @media (max-width:575.98px) {
     .page-logo-img {
-        width: 68px;
+        width: 55px;
     }
 
     .box-information {
