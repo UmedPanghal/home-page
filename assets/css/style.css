@@ -95,6 +95,10 @@
     max-width: 336px;
 }
 
+.mw-40 {
+    max-width: 40px;
+}
+
 /* margin  */
 .my-32 {
     margin-top: 32px;
@@ -292,6 +296,24 @@
     background-color: var(--color-blue);
     border-radius: 23px;
     border: none;
+}
+
+.btn-sign-up:hover {
+    color: var(--color-blue) !important;
+    background-color: var(--color-light-blue);
+}
+
+/* header  */
+.list-style-none {
+    list-style: none;
+}
+
+.gallery-box:hover {
+    background-color: var(--color-white);
+}
+
+.gallery-box:hover .show-more {
+    color: var(--color-blue) !important;
 }
 
 @media (max-width:575.98px) {
