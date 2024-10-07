@@ -16,19 +16,18 @@
 
 .nav-link:hover {
     transform: scale(1.2);
-
 }
 
 .btn-log-out {
     padding: 11px 28px;
-    background-color: #2C49FE;
+    background-color: var(--color-blue);
     border-radius: 23px;
     border: none;
 }
 
 .btn-log-out:hover {
-    color: #2C49FE !important;
-    background-color: white;
+    color: var(--color-blue) !important;
+    background-color: var(--color-white);
 }
 
 /* font family  */
@@ -151,7 +150,7 @@
     position: absolute;
     width: 11%;
     height: 8px;
-    background-color: #01C8FF;
+    background-color: var(--color-light-blue);
     right: 0%;
     bottom: -5px;
 }
@@ -162,22 +161,21 @@
     width: 90%;
     height: 8px;
     bottom: -5px;
-    background-color: #2C49FE;
+    background-color: var(--color-blue);
     left: 1%;
 }
 
-/* btn-header  */
 
 .btn-get-started {
     padding: 11px 28px;
-    background-color: #2C49FE;
+    background-color: var(--color-blue);
     border-radius: 28px;
     border: none;
 }
 
 .btn-get-started:hover {
-    color: #2C49FE !important;
-    background-color: white;
+    color: var(--color-blue) !important;
+    background-color: var(--color-white);
 }
 
 .btn-go-check {
@@ -195,14 +193,14 @@
 }
 
 .btn-go-check:hover {
-    color: white;
-    background: #2C49FE !important;
+    color: var(--color-white);
+    background: var(--color-blue) !important;
 }
 
 .bluebox {
     max-width: 900px;
     border-radius: 20px;
-    background: #2C49FEBD;
+    background: var(--color-blue);
     margin-top: 40px;
     padding-right: 15px;
     margin-bottom: 40px;
@@ -270,6 +268,11 @@
 
 }
 
+.link-text-more:hover {
+    color: var(--color-red) !important;
+
+}
+
 .name-text {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -303,7 +306,7 @@
     background-color: var(--color-light-blue);
 }
 
-/* header  */
+/* footer */
 .list-style-none {
     list-style: none;
 }
@@ -329,22 +332,26 @@
         margin-top: 18px;
     }
 
+    .bluebox {
+        padding-bottom: 20px;
+    }
+
 }
 
 @media (min-width:576px) {
     .plus-left-line {
-        border-right: 3px solid white;
+        border-right: 3px solid var(--color-white);
     }
 
     .plus-bottom-line {
-        border-bottom: 3px solid white;
+        border-bottom: 3px solid var(--color-white);
     }
 
 }
 
 @media (min-width:768px) {
     .line-border {
-        border-right: 3px solid white !important;
+        border-right: 3px solid var(--color-white) !important;
         padding-right: 50px;
     }
 
@@ -355,11 +362,19 @@
     .plus-bottom-line {
         border-bottom: none;
     }
+
+    .bluebox {
+        padding-bottom: 20px;
+    }
 }
 
 @media (min-width:992px) {
     .box-3 {
         left: 23%;
+    }
+
+    .bluebox {
+        padding-bottom: 0px;
     }
 }
 
@@ -367,7 +382,7 @@
 
     .navbar-toggler span {
         display: block;
-        background-color: blue;
+        background-color: var(--color-blue);
         height: 3px;
         width: 25px;
         margin-top: 5px;
@@ -395,14 +410,8 @@
         transform: translate(15%, 33%) rotate(-45deg);
     }
 
-    .bluebox {
-        padding-bottom: 20px;
-    }
-
     .box-information {
         justify-content: center;
         align-items: center;
     }
-
-
 }
